@@ -8,7 +8,7 @@ $pdo = null;
 
 try
 {
-    $pdo = new PDO('mysql:host=127.0.0.1;dbname=exemplo;', 'root', '0110');
+    $pdo = new PDO('mysql:host=127.0.0.1;dbname=exemplo;', 'root', '1234');
 
 } 
 catch(Exception $e)

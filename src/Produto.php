@@ -15,7 +15,7 @@ class Produto
     {
         try
         {
-            $this->conexao = new PDO('mysql:host=127.0.0.1;dbname=exemplo;', 'root', '0110');
+            $this->conexao = new PDO('mysql:host=127.0.0.1;dbname=exemplo;', 'root', '1234');
         } 
         catch(Exception $e)
         {
